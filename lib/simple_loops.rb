@@ -22,7 +22,7 @@ end
 def return_string_array(array)
   counter = 0 
   while array[counter] do
-    p array[counter].to_s
+    p array[counter]
     counter += 1 
   end
 end
