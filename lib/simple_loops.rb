@@ -11,8 +11,12 @@ def loop_message_n_times(message, integer)
   end
 end
 
-def output_array
-  
+def output_array(array)
+  counter = 0 
+  while array[counter] do
+    puts array[counter]
+    counter++
+  end
 end
 
 def return_string_array
